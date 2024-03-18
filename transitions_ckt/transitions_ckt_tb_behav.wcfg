@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="transitions_ckt_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="transitions_ckt_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="100.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="217"></NameColumnWidth>
+      <ValueColumnWidth column_width="91"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/transitions_ckt_tb/uut/data_i" type="logic">
+      <obj_property name="ElementShortName">data_i</obj_property>
+      <obj_property name="ObjectShortName">data_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transitions_ckt_tb/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transitions_ckt_tb/uut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transitions_ckt_tb/uut/equall_o" type="logic">
+      <obj_property name="ElementShortName">equall_o</obj_property>
+      <obj_property name="ObjectShortName">equall_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transitions_ckt_tb/uut/rising_o" type="logic">
+      <obj_property name="ElementShortName">rising_o</obj_property>
+      <obj_property name="ObjectShortName">rising_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transitions_ckt_tb/uut/falling_o" type="logic">
+      <obj_property name="ElementShortName">falling_o</obj_property>
+      <obj_property name="ObjectShortName">falling_o</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transitions_ckt_tb/uut/r_edge" type="logic">
+      <obj_property name="ElementShortName">r_edge</obj_property>
+      <obj_property name="ObjectShortName">r_edge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transitions_ckt_tb/uut/f_edge" type="logic">
+      <obj_property name="ElementShortName">f_edge</obj_property>
+      <obj_property name="ObjectShortName">f_edge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transitions_ckt_tb/uut/present_state" type="array">
+      <obj_property name="ElementShortName">present_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">present_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transitions_ckt_tb/uut/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transitions_ckt_tb/uut/data_q" type="logic">
+      <obj_property name="ElementShortName">data_q</obj_property>
+      <obj_property name="ObjectShortName">data_q</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transitions_ckt_tb/uut/equall_w" type="logic">
+      <obj_property name="ElementShortName">equall_w</obj_property>
+      <obj_property name="ObjectShortName">equall_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transitions_ckt_tb/uut/rising_w" type="logic">
+      <obj_property name="ElementShortName">rising_w</obj_property>
+      <obj_property name="ObjectShortName">rising_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transitions_ckt_tb/uut/falling_w" type="logic">
+      <obj_property name="ElementShortName">falling_w</obj_property>
+      <obj_property name="ObjectShortName">falling_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transitions_ckt_tb/uut/EQUALL" type="array">
+      <obj_property name="ElementShortName">EQUALL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EQUALL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transitions_ckt_tb/uut/FALLING" type="array">
+      <obj_property name="ElementShortName">FALLING[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FALLING[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/transitions_ckt_tb/uut/RISING" type="array">
+      <obj_property name="ElementShortName">RISING[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RISING[31:0]</obj_property>
+   </wvobject>
+</wave_config>
